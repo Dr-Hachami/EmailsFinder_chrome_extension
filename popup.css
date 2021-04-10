@@ -1,0 +1,32 @@
+body{
+	background-color: #333;	
+	width: 200px;
+	height: 350px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+
+button{
+
+	bottom: 30px;
+	color: green;
+	background-color: white;
+	text-align: center;
+	font-size: 20px;
+	left: 80px;
+	border-radius: 10px
+}
+h1{
+
+	color: white;
+	left: 30px
+}
+.email{
+
+	color: white;
+	
+	font-size: 12px;
+
+}
+

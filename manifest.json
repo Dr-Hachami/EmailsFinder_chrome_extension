@@ -1,0 +1,26 @@
+{
+	"name" : "EmailsFinder",
+	"description":"Find Emails On Websites",
+	"version": "1.0.1",
+	"manifest_version":2,
+	"icons":{
+		"16":"./obj16x16.png",
+		"32":"./obj32x32.png",
+		"48":"./obj48x48.png",
+		"128":"./obj128x128.png"
+	},
+	"content_scripts":[
+		{
+			"matches":["<all_urls>"],
+
+			"js": ["content.js"]
+		}
+	],
+	"browser_action":{
+		"default_popup": "popup.html",
+		"default_title": "EmailsFinder"
+	},
+
+	"permissions":["tabs"]
+
+}
